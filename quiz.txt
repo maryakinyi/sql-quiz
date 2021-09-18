@@ -1,0 +1,24 @@
+1.SELECT *FROM Students
+2SELECT names,marks FROM Student
+3
+4SELECT names,marks FROM Student WHERE town="ruiru"
+5SELECT *FROM Students WHERE marks > 85
+6SELECT *FROM Student ORDER BY names AND marks ASC
+7SELECT *FROM Student WHERE marks>80 AND town="Lodwar"
+8
+SELECT names FROM Students WHERE marks > 70
+
+
+9Write a query to obtain all the students records in alphabetical order of their
+names
+
+SELECT names FROM Student ORDER BY names ASC 
+
+10Write a query to obtain the names of the students who either reside in Nairobi
+ior scored above 80 marks
+
+SELECT names FROM Student WHERE town="Nairobi" OR marks > 80
+
+
+
+
